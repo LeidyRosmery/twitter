@@ -10,20 +10,95 @@ header{
     float: left;
     height: 46px;
 }
-.icon-home3, .icon-bell , .icon-envelope3 {
-	padding-right: 20px;
+.encabezado{
+  display: flex;
+  padding: 0 100px;
 }
+
+.icon{
+  font-size: 20px;
+  color: #66757F;
+}
+.twitter-icon span{
+  color: #48AAE6;
+}
+#contenedor {
+  height: 750px;
+  width: 100%;
+  padding: 0 117px;
+  background: #F5F8FA ;
+}
+.iconos {
+  padding: 0 50px;
+}
+input[type="text"] {
+    width: 509px;
+    border: 1px solid #48AAE6;
+    border-radius: 4px;
+    height: 39px;
+}
+input[placeholder] {
+    color: #48AAE6;
+    font-size: 15px;
+    padding: 0 12px;
+    /* background: red; */
+}
+.icon >span {
+  font-family: "arial";
+  font-weight: 500;
+  font-size: 13px;
+
+}
+.menu {
+  height: 38px;
+  width: 33.33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.encabezado img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+.encabezado input[type="text"]{
+  width: 224px;
+  border-radius: 15px;
+  background: #F5F8FA;
+  border: 1px solid #EBF0F3;
+  height: 36px;
+}
+.encabezado input[type="button"]{
+  width: 104px;
+  height: 33px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  font-family: "Arial";
+  font-weight: 500px;
+  background: #48AAE6;
+  border-radius: 10px;
+}
+
 
 .datos ,
 .post ,
 .seguir {
-	background: skyblue;
-	height: 680px;
-	width: 588px;
-	float: left;
-	overflow: auto;
-	margin-top: 10px;
+  height: 680px;
+      width: 290px;
+      float: left;
+      overflow: auto;
+      margin-left: 6px;
+      margin-top: 10px;
 
+}
+#whatHappen{
+  height: 61px;
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  background: #E8F4FB;
 }
 #perfil{
   position: relative;
@@ -49,24 +124,20 @@ header{
   display: inline-block;
   color: gray;
   font-size: 12px;
-  margin-left: 20px;
+
 }
 .tendencia .seguidores {
   color: red
 }
-.datos{
-  margin-left: 118px;
-  width: 288px;
-  margin-top: 10px;
-}
 .info img{
   height: 100px;
   width: 100%;
+  border-radius: 8px;
 }
-.seguir{
-	margin-right: 100px;
-	width: 18%;
+#quienSeguir , #condiciones ,.info , .tendenciasList{
   background: #fff;
+  margin-bottom: 14px;
+  border-radius: 8px;
 }
 #quienSeguir img {
   float: left;
@@ -88,13 +159,6 @@ height: 61px;
   text-decoration: none;
 }
 
-.info , .tendenciasList {
-  height: 195px;
-      width: 291px;
-      background: #fff;
-
-}
-
 .info-twitter {
   display: inline-block;
   margin-left: 20px;
@@ -110,20 +174,32 @@ height: 61px;
   font-weight: bold;
 }
 #tweets {
-color: green;
 margin-left: -35px;
 clear: left;
+}
+.tendencia{
+  color: #48AAE6;
 }
 .tendenciasList {
 	height: 440px;
 	background: #fff;
 }
-.post img {
-	width: 60px;
-	height: 60px;
+.post{
+  width: 591px;
+}
+.img-post{
+  width: 50px;
+	height: 50px;
 	margin: 5px ;
 	float: left;
 	border-radius: 8px;
+}
+#imgPost {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-left: 20px;
 }
 .post div {
 	margin: 5px;
@@ -141,9 +217,6 @@ clear: left;
 
 }
 
-.tendencia {
-	color: skyblue;
-}
 .tendenciasList .tendencia {
 	margin-top: 10px;
 }
@@ -151,9 +224,7 @@ clear: left;
 	margin-left: 30px;
   display: block;
 }
-.accion span {
-	display: inline-block;
-}
+
 #cambiar{
 	margin:0;
 }
@@ -162,9 +233,4 @@ clear: left;
 	margin-right: 50px;
 	color: gray;
 	margin-top:  12px;
-}
-
-.accion {
-	    margin-left: 100px;
-    font-size: 14px;
 }
