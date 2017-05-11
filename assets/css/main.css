@@ -81,6 +81,73 @@ input[placeholder] {
 }
 
 
+.icon{
+  font-size: 20px;
+  color: #66757F;
+}
+.twitter-icon span{
+  color: #48AAE6;
+}
+#contenedor {
+  height: 750px;
+  width: 100%;
+  padding: 0 117px;
+  background: #F5F8FA ;
+}
+.iconos {
+  padding: 0 50px;
+}
+input[type="text"] {
+    width: 509px;
+    border: 1px solid #48AAE6;
+    border-radius: 4px;
+    height: 39px;
+}
+input[placeholder] {
+    color: #48AAE6;
+    font-size: 15px;
+    padding: 0 12px;
+    /* background: red; */
+}
+.icon >span {
+  font-family: "arial";
+  font-weight: 500;
+  font-size: 13px;
+
+}
+.menu {
+  height: 38px;
+  width: 33.33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.encabezado img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+.encabezado input[type="text"]{
+  width: 224px;
+  border-radius: 15px;
+  background: #F5F8FA;
+  border: 1px solid #EBF0F3;
+  height: 36px;
+}
+.encabezado input[type="button"]{
+  width: 104px;
+  height: 33px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  font-family: "Arial";
+  font-weight: 500px;
+  background: #48AAE6;
+  border-radius: 10px;
+}
+
+
 .datos ,
 .post ,
 .seguir {
